@@ -6,7 +6,7 @@
 /*   By: samhammo <samhammo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/04 11:22:50 by samhammo          #+#    #+#             */
-/*   Updated: 2026/11/04 11:53:01 by samhammo         ###   ########.fr       */
+/*   Updated: 2026/11/04 18:38:07 by samhammo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,5 +18,10 @@
 # include <unistd.h>
 
 size_t	ft_strlen(const char *s);
+size_t	strlcpy(char *dst, const char *src, size_t size);
+size_t	ft_strlcat(char *dst, const char *src, size_t size);
+int ft_atoi(const char *nptr);
+char **ft_split(char const *s, char c);
+void ft_putstr_fd(char *s, int fd);
 
 #endif
