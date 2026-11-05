@@ -3,8 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strnstr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: samhammo <ssamhammo@student.42.fr>          +#+  +:+
-	+#+        */
+/*   By: samhammo <samhammo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/05 14:41:45 by samhammo          #+#    #+#             */
 /*   Updated: 2026/11/05 15:56:09 by samhammo         ###   ########.fr       */
