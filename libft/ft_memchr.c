@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: samhammo <sami.hammouche@learner.42.tec    +#+  +:+       +#+        */
+/*   By: samhammo <samhammo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/04 21:23:17 by samhammo          #+#    #+#             */
-/*   Updated: 2026/11/05 10:46:32 by samhammo         ###   ########.fr       */
+/*   Updated: 2026/11/05 17:57:30 by samhammo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,5 +14,5 @@
 
 void	*ft_memchr(const void *s, int c, size_t n)
 {
-	size_t i;
+	size_t	i;
 }

@@ -1,15 +1,23 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putstr_fd().c                                   :+:      :+:    :+:   */
+/*   ft_substr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: samhammo <sami.hammouche@learner.42.tec    +#+  +:+       +#+        */
+/*   By: samhammo <samhammo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/11/04 17:47:38 by samhammo          #+#    #+#             */
-/*   Updated: 2026/11/05 10:46:36 by samhammo         ###   ########.fr       */
+/*   Created: 2026/11/05 18:09:07 by samhammo          #+#    #+#             */
+/*   Updated: 2026/11/05 18:31:29 by samhammo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void ft_putstr_fd(char *s, int fd);
+char    *ft_substr(char const *s, unsigned int start, size_t len)
+{
+    size_t  i;
+    size_t  size;
+    char    *t;
+
+    i = 0;
+    
+}

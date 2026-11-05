@@ -1,27 +1,30 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_split().c                                       :+:      :+:    :+:   */
+/*   ft_calloc.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: samhammo <sami.hammouche@learner.42.tec    +#+  +:+       +#+        */
+/*   By: samhammo <samhammo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/11/04 17:43:22 by samhammo          #+#    #+#             */
-/*   Updated: 2026/11/05 10:46:37 by samhammo         ###   ########.fr       */
+/*   Created: 2026/11/05 17:23:21 by samhammo          #+#    #+#             */
+/*   Updated: 2026/11/05 17:58:27 by samhammo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-
-
-char **ft_split(char const *s, char c)
+void	*ft_calloc(size_t nmemb, size_t size)
 {
-    size_t i;
-    size_t j;
-    size_t start;
-    size_t  k;
-    char **tab;
+	unsigned char	*tab;
+	size_t			i;
 
-    i = 0;
-    j = 0;
+	i = 0;
+	tab = malloc(nmemb * size);
+	if (!tab)
+		return (NULL);
+	while (i < (nmemb * size))
+	{
+		tab[i] = 0;
+		i++;
+	}
+	return (tab);
 }

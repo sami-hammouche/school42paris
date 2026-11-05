@@ -3,18 +3,18 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strncmp.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: samhammo <sami.hammouche@learner.42.tec    +#+  +:+       +#+        */
+/*   By: samhammo <samhammo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/04 21:24:01 by samhammo          #+#    #+#             */
-/*   Updated: 2026/11/05 10:46:09 by samhammo         ###   ########.fr       */
+/*   Updated: 2026/11/05 17:58:05 by samhammo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int ft_strncmp(const char *s1, const char *s2, size_t n)
+int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {
-	size_t i;
+	size_t	i;
 
 	i = 0;
 	while (i < n && s1[i] && s1[i] == s2[i])
