@@ -6,7 +6,7 @@
 /*   By: samhammo <samhammo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/04 12:00:54 by samhammo          #+#    #+#             */
-/*   Updated: 2026/11/05 10:46:42 by samhammo         ###   ########.fr       */
+/*   Updated: 2026/11/06 20:00:43 by samhammo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,13 +14,15 @@
 
 size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 {
-	int	i;
+	size_t	i;
 
 	i = 0;
-	while (i < size)
+	while (src[i] && i + 1 < size)
 	{
 		dst[i] = src[i];
 		i++;
 	}
-	return (dst);
+	if (size > 0)
+		dst[i] = '\0';
+	return (ft_strlen(src));
 }

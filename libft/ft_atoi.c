@@ -6,7 +6,7 @@
 /*   By: samhammo <samhammo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/04 17:23:10 by samhammo          #+#    #+#             */
-/*   Updated: 2026/11/05 17:56:04 by samhammo         ###   ########.fr       */
+/*   Updated: 2026/11/06 20:28:08 by samhammo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ int	ft_atoi(const char *nptr)
 {
 	size_t	i;
 	int		signe;
-	int		res;
+	long int		res;
 
 	i = 0;
 	signe = 1;
@@ -34,5 +34,5 @@ int	ft_atoi(const char *nptr)
 		res = res * 10 + (nptr[i] - '0');
 		i++;
 	}
-	return (res * signe);
+	return ((int)(res * signe));
 }

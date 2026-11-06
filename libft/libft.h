@@ -6,7 +6,7 @@
 /*   By: samhammo <samhammo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/04 11:22:50 by samhammo          #+#    #+#             */
-/*   Updated: 2026/11/05 18:08:03 by samhammo         ###   ########.fr       */
+/*   Updated: 2026/11/06 20:20:05 by samhammo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,6 +44,9 @@ char				*ft_strnstr(const char *big, const char *little,
 						size_t len);
 char				*ft_strdup(const char *s);
 char				*ft_strjoin(char const *s1, char const *s2);
+char    			*ft_substr(char const *s, unsigned int start, size_t len);
+char				*ft_strtrim(char const *s1, char const *set);
+char				**ft_split(char const *s, char c);
 
 void				*ft_memset(void *s, int c, size_t n);
 void				ft_bzero(void *s, size_t n);
