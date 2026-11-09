@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: samhammo <samhammo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/11/05 18:09:07 by samhammo          #+#    #+#             */
-/*   Updated: 2026/11/05 21:35:37 by samhammo         ###   ########.fr       */
+/*   Created: 2026/11/05 21:45:42 by samhammo          #+#    #+#             */
+/*   Updated: 2026/11/05 21:45:42 by samhammo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,9 @@
 
 char    *ft_substr(char const *s, unsigned int start, size_t len)
 {
-    size_t  i;
-    size_t  size;
-    char    *t;
+    size_t	i;
+    size_t	size;
+    char	*t;
 
     i = 0;
     size = ft_strlen(s);
