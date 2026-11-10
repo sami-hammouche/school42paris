@@ -6,13 +6,13 @@
 /*   By: samhammo <samhammo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/08 21:30:31 by samhammo          #+#    #+#             */
-/*   Updated: 2026/11/08 21:33:55 by samhammo         ###   ########.fr       */
+/*   Updated: 2026/11/10 14:57:44 by samhammo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void    ft_putendl_fd(char *s, int fd)
+void	ft_putendl_fd(char *s, int fd)
 {
 	size_t	i;
 
